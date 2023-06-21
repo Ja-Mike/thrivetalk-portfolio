@@ -128,42 +128,49 @@ height: 50px;
 left: 179px;
 top: 730px;
 
-background: #F9B640;
-}
-#wai{
-position: absolute;
-width: 90px;
-height: 29px;
-left: 209px;
-top: 725px;
+background: #f9b54000;
 
 font-family: 'Larsseit';
 font-size: 16px;
 line-height: 23px;
-display: flex;
+
 align-items: center;
 letter-spacing: 0.1em;
-
-color: #FFFFFF;
-}
-#wdid{
-position: absolute;
-width: 150px;
-height: 43px;
-left: 367px;
-top: 718px;
-
-font-family: 'Larsseit';
-font-size: 16px;
-line-height: 23px;
-display: flex;
-align-items: center;
-letter-spacing: 0.1em;
-
+text-align: center;
+transition: all 0.3s ease 0s;
 color: #FAB63E;
 }
+.button-who:hover{
+color: white;
+background: #f9b540;
+}
+
+.button-do{
+position: absolute;
+width: 150px;
+height: 50px;
+left: 379px;
+top: 730px;
+
+background: #f9b54000;
+
+font-family: 'Larsseit';
+font-size: 16px;
+line-height: 23px;
+
+align-items: center;
+letter-spacing: 0.1em;
+text-align: center;
+transition: all 0.3s ease 0s;
+color: #FAB63E;
+}
+.button-do:hover{
+    color: white;
+    background: #f9b540;
+}
+
 #contact-us{
-    position: absolute;
+position: absolute;
 width: 90px;
 height: 11px;
 left: 1193px;
